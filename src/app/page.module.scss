@@ -1,0 +1,24 @@
+/* TILES LIST */
+.tilesList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, auto);
+    gap: 1rem;
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.tilesList_Item {
+    background-color: var(--links);
+    color: var(--background-body);
+    padding: 1rem;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1;
+
+    &:hover, &:focus, &:active {
+        background-color: var(--focus);
+    }
+}

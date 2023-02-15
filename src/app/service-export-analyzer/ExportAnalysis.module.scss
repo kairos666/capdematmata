@@ -1,0 +1,40 @@
+.Msg {
+    margin:0;
+    padding: 1rem;
+    font-size: 0.85em;
+
+    &.Msg__Empty {
+        background-color: var(--background);
+    }
+    &.Msg__Error {
+        background-color: var(--highlight);
+    }
+}
+
+.DList {
+    display: flow-root;
+    dt { text-align:right; float:left; min-width:25%; margin-inline-end: 1rem; }
+    dd { overflow: hidden; font-weight: 500; }
+}
+
+.HeadHiglight {
+    padding:1rem;
+    background-color: var(--background);
+}
+
+.HeadHiglightLite {
+    padding:0.5rem 1rem;
+    background-color: var(--background-alt);
+}
+
+.TableDensify {
+    font-size:0.85em;
+}
+
+.paragraphEllipsis {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-clamp: 3;
+}
