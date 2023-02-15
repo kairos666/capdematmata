@@ -8,7 +8,7 @@ export default function Home() {
             <section>
                 <h2>Les utilitaires</h2>
                 <div className={ styles.tilesList }>
-                    <Link className={ styles.tilesList_Item } href="/service-export-analyzer">Analyseur d'export de téléservice</Link>
+                    <Link className={ styles.tilesList_Item } href="/service-export-analyzer">Analyseur d&apos;export de téléservice</Link>
                 </div>
             </section>
             <section>

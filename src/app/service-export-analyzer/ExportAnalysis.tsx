@@ -57,10 +57,10 @@ const ExportAnalysis:FC<ExportAnalysisProps> = () => {
 
     switch(analysisState) {
         case "empty":
-            return (<figure className={ [styles.Msg, styles.Msg__Empty].join(' ') }><figcaption>Absence de données sur le téléservice. Il faut copier le contenu de l'export dans le champs "contenu de l'export" ci-dessus.</figcaption></figure>);
+            return (<figure className={ [styles.Msg, styles.Msg__Empty].join(' ') }><figcaption>Absence de données sur le téléservice. Il faut copier le contenu de l&apos;export dans le champs &lsquo;contenu de l&apos;export&lsquo; ci-dessus.</figcaption></figure>);
 
         case "invalid":
-            return (<figure className={ [styles.Msg, styles.Msg__Error].join(' ') }><figcaption>Les données saisies ne sont pas au format JSON, ou ne correspondent pas au format attendu. Veuillez vérifier le contenu de l'export saisi dans le champs.</figcaption></figure>);
+            return (<figure className={ [styles.Msg, styles.Msg__Error].join(' ') }><figcaption>Les données saisies ne sont pas au format JSON, ou ne correspondent pas au format attendu. Veuillez vérifier le contenu de l&apos;export saisi dans le champs.</figcaption></figure>);
 
         case "ok":
             // give form field id, get form field key
@@ -105,9 +105,9 @@ const ExportAnalysis:FC<ExportAnalysisProps> = () => {
                         <table className={ styles.TableDensify }>
                             <thead>
                                 <tr>
-                                    <th>statut d'origine</th>
-                                    <th>libellé de l'action</th>
-                                    <th>résultat de l'action</th>
+                                    <th>statut d&apos;origine</th>
+                                    <th>libellé de l&apos;action</th>
+                                    <th>résultat de l&apos;action</th>
                                     <th>différé</th>
                                 </tr>
                             </thead>
@@ -121,7 +121,7 @@ const ExportAnalysis:FC<ExportAnalysisProps> = () => {
                             <thead>
                                 <tr>
                                     <th>ordre</th>
-                                    <th>nom de l'étape (clé, pourcentage)</th>
+                                    <th>nom de l&apos;étape (clé, pourcentage)</th>
                                     <th>description</th>
                                     <th>étape parent</th>
                                     <th>visibilité</th>

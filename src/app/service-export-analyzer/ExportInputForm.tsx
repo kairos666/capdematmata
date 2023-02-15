@@ -28,7 +28,7 @@ const ExportInputForm:FC<ExportInputFormProps> = () => {
 
     return (
         <form onSubmit={ submitHandler }>
-            <label htmlFor="export-json">Contenu de l'export</label>
+            <label htmlFor="export-json">Contenu de l&apos;export</label>
             <textarea id="export-json" value={ exportJsonString } onChange={ inputHandler } />
             <button type="submit" disabled={ (exportJsonString === "") }>Analyser</button>
             <button type="reset" disabled={ (exportJsonString === "") } onClick={ resetHandler }>Purger</button>
